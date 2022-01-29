@@ -25,9 +25,6 @@ export const App = () => {
       default:
         break;
     }
-    // this.setState((prevState) => {
-    // 	return { [key]: (prevState[key] += 1) };
-    // });
   };
 
   const countTotalFeedback = () => {
