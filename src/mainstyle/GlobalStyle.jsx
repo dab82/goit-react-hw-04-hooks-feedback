@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(0deg, #dde7ec, #80bb20);
+  background: linear-gradient(0deg, #dde7ec, #6e3c02);
   height: 100%;
  }
 html {
@@ -59,4 +59,10 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-`;
+#root {
+  margin: 20px auto;
+  max-width: 400px;
+  border: 5px solid brown;
+  border-radius: 10px;
+  background: #f7bb6e;}
+  `;
